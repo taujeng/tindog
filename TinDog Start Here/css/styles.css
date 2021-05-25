@@ -1,0 +1,189 @@
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3{
+    font-family: "Montserrat";
+}
+
+p{
+    color: #8f8f8f;
+}
+
+    /* Sections */
+.color-section{
+    background-color:#ff4c68;
+    color:#fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+    /*Title Section */
+#title{
+
+    text-align: left;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+ /* Navigation Bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.nav-item{
+    font-size: 1.5rem;
+}
+
+.brand-name{
+    font-family: "Ubuntu";
+    font-size: 3rem;
+    line-height: 2;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+    /* Download Buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+    /* Title */
+.title-image{
+    width: 17%;
+    position: absolute;
+    right: 21%;
+    transform: rotate(25deg);
+}
+
+.main-heading{
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+    /* Features */
+#features{
+    position: relative;
+    /* z-index: 1;  actually not necessary */
+}
+
+.feature-titles{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.feature-box{
+    padding: 3% 0;
+}
+
+
+.feature-icons{
+    padding: 10% 0 10% 0%;
+    color: #ef8172;
+}
+
+.feature-icons:hover{
+    color: #ff4c68;
+}
+
+    /* Testimonial */
+
+.testimonial-text{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+    padding: 7% 15% 0 15%;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-items{
+    padding: 7% 15% 7% 15%;
+}
+
+    /* Press */
+#press{
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 30px 50px;
+}
+
+    /* Pricing */
+#pricing{
+    padding: 50px 100px 100px;
+}
+
+.pricing-titles{
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.price-text{
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.custom-button{
+    width: 100%;
+}
+
+@media (max-width: 1028px) {
+
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
+}
+
+
+    /* Call to Action */
+
+.cta-text{
+    padding: 3% 0 0;
+    font-size: 3rem;
+    font-family: "Ubuntu"
+}
+
+.sizing{
+    padding: 0
+}
+
+    /* Footer */
+
+.footer-icons{
+    padding: 10px 10px 20px;
+}
+
+.footer-btn{
+    color: black;
+}
